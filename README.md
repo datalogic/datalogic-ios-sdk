@@ -193,23 +193,6 @@ manager.findMyDevice()      // Triggers device indicator
 manager.unlinkDevice()      // Unlinks the device
 ```
 
-##### Async Streams
-
-| Stream | Purpose |
-|--------|---------|
-| `pairingBarcodeStream()` | Stream of pairing barcodes (UIImage) |
-| `connectionStream()`     | Emits connection status (`Bool`) |
-| `batteryDataStream()`    | Emits `BatteryData` |
-| `deviceDetailsStream()`  | Emits `DeviceDetails` |
-| `barcodeDataStream()`    | Emits `BarcodeData` |
-
-
-```swift
-for await barcode in await manager.barcodeStream() {
-    image = barcode
-}
-```
-
 ---
 
 ### DeviceManagerDelegate
