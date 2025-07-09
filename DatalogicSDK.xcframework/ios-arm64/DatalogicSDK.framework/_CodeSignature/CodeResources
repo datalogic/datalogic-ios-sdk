@@ -4,38 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/ZintDataMatrix.framework/DEVELOPER</key>
-		<data>
-		l6q4tgEAlr4Xg1YAAWCjeYb5kzM=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/Info.plist</key>
-		<data>
-		Ik+f+fUxdQzBfDdalfbNCSV18sM=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/Makefile.mingw</key>
-		<data>
-		Qt+zMITdSsBV9IY+FuSGfzbo6D0=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/OCRB-16.bdf</key>
-		<data>
-		CxldzRElS7dAJIyP1Pvnf1+VyvA=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/OCRB-18.bdf</key>
-		<data>
-		11FGuP4sKXrcXe0b5SkMvAa2Z7M=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/ZintDataMatrix</key>
-		<data>
-		rMMatMJ+kpLqCuB3g1vyOuanYgw=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/_CodeSignature/CodeResources</key>
-		<data>
-		OZ1rIcqU/gG9yATEhoF/NqJymE4=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/libzint.rc</key>
-		<data>
-		l/ky173AJWFGe8Zn4tqqgUKTaNs=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		hGAiaoSerOqSaIrVnF0FuFVk6dg=
@@ -63,62 +31,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/ZintDataMatrix.framework/DEVELOPER</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0wru4avx8c7nCwcMdJSzjPSFyW1bh6SSKi71AjKvIMA=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qRvzgtSIxdDxwMXEVjXNfGeU0aiwEjk1cLtglNSJhvo=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/Makefile.mingw</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UGhv6mKXtWSJSJ5lXlqF1ZLHcuVWcStc4CXlLPcMHf0=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/OCRB-16.bdf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+7B9lSJATAYkUS7LW1mC4wSXnjASSi4s8LAo4MclFoc=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/OCRB-18.bdf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			S8PNKYVO8Z87BDHHSEi05+moJhEsA5iz35+Vodmthrw=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/ZintDataMatrix</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Cce4HvWGj6qcLg4DffrfH4GRdsuRl6TBRQv4Nktu8Bk=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dqepMGLj/HH0fzJZmEZVH3HK0LTXMk0r9jtRfWyIjYQ=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/libzint.rc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ab1XxmGqcgqcmiAdk7W89bVRRu7mHhBY721MQRIBQBY=
-			</data>
-		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>

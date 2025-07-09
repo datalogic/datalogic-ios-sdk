@@ -4,209 +4,121 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/ZintDataMatrix.framework/DEVELOPER</key>
-		<data>
-		l6q4tgEAlr4Xg1YAAWCjeYb5kzM=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/Info.plist</key>
-		<data>
-		8rLdoXnGJqOQhrOghOD8j30tDe4=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/Makefile.mingw</key>
-		<data>
-		Qt+zMITdSsBV9IY+FuSGfzbo6D0=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/OCRB-16.bdf</key>
-		<data>
-		CxldzRElS7dAJIyP1Pvnf1+VyvA=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/OCRB-18.bdf</key>
-		<data>
-		11FGuP4sKXrcXe0b5SkMvAa2Z7M=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/ZintDataMatrix</key>
-		<data>
-		hyKGviP92osaG+Pjctj4ZhBzcms=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/_CodeSignature/CodeResources</key>
-		<data>
-		HoSjH9myQo2dUQTFtfJj96J4t94=
-		</data>
-		<key>Frameworks/ZintDataMatrix.framework/libzint.rc</key>
-		<data>
-		l/ky173AJWFGe8Zn4tqqgUKTaNs=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		BpPd/2wpmQVrYmWuYIu/tRerjWA=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/rlS8+K3AICam5xEXcUlTihQLuE=
+		jihGrtuIynp8eB+4OlbkDgbYKbE=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jrOPATqlJEUOmuABZZ5n9JRutao=
+		Jy9YVnrS9CvXKlrHFH+g7//GDWA=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Fd85KqK+LivPkVXdKQcFbg1AqR0=
+		IlDcoQItwTT8GARksjh8P45LA5c=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jrOPATqlJEUOmuABZZ5n9JRutao=
+		Jy9YVnrS9CvXKlrHFH+g7//GDWA=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		a3zWXHwnqXrbQCzDFp7FZfNm2g8=
+		xpYWKbuBqK9HF522lkbWe183CUc=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/rlS8+K3AICam5xEXcUlTihQLuE=
+		jihGrtuIynp8eB+4OlbkDgbYKbE=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ln9+xzkVtoaG8o4z00RJmRvnd68=
+		Mo7sJ5ho3msrDRnFIAbU/+u20HQ=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XH4oNq7Pm47WKFxlETZZoSKHWbU=
+		5keUiXtsu29IxjhqYM1NeeMSJkY=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ln9+xzkVtoaG8o4z00RJmRvnd68=
+		Mo7sJ5ho3msrDRnFIAbU/+u20HQ=
 		</data>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		q6KIUr3Mrexjd5e4dq3y/40Kfnk=
+		SIAmZsQaqG9SQQbqwPDfb9Sah+8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/ZintDataMatrix.framework/DEVELOPER</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0wru4avx8c7nCwcMdJSzjPSFyW1bh6SSKi71AjKvIMA=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GM86tOgkKjbKKOJ5S1xNfEaLH6I79ppAHwGlVk8x4oM=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/Makefile.mingw</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UGhv6mKXtWSJSJ5lXlqF1ZLHcuVWcStc4CXlLPcMHf0=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/OCRB-16.bdf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+7B9lSJATAYkUS7LW1mC4wSXnjASSi4s8LAo4MclFoc=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/OCRB-18.bdf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			S8PNKYVO8Z87BDHHSEi05+moJhEsA5iz35+Vodmthrw=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/ZintDataMatrix</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			O+X96bPHYzHEw34i3fmHpFj2+gWRwziqx7JaLzmcWno=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0JdWlsAvK4ZEcDPW60ZWAycHnsupAMjYqJ07JelLXyU=
-			</data>
-		</dict>
-		<key>Frameworks/ZintDataMatrix.framework/libzint.rc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ab1XxmGqcgqcmiAdk7W89bVRRu7mHhBY721MQRIBQBY=
-			</data>
-		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CeeG6LcK5I6flUpX0bjOFyqUZcGnSAmdoYOGzMYE6i8=
+			gupHhaxsw/7BZAD9aazv4ra+CKicLvE3mghjpizC5+c=
 			</data>
 		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4xeSwBeGbfcLFlw+bYLMKVk5F3LMfX9dFSrG1bijsLg=
+			b0gEPc40ucutqmwKtvNO6ekirULgOqUNe+isTYD1nFY=
 			</data>
 		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ReSW64FLbueOf/Jnb6UmFFSTetidXPrjyNXVf01/OAk=
+			WGGRDuZZw2WK2GJLeYrhTI8EH2VSr7e0Exc44p4wkUY=
 			</data>
 		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4xeSwBeGbfcLFlw+bYLMKVk5F3LMfX9dFSrG1bijsLg=
+			b0gEPc40ucutqmwKtvNO6ekirULgOqUNe+isTYD1nFY=
 			</data>
 		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KI+kpu2IkcMab6TmMM0Qms1nfa1/aki5h0qQwkuEwEU=
+			jd+MZPQ+6TLJRCl/Uqm2GWAaGOTF2+l5qwNjewA8hMo=
 			</data>
 		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CeeG6LcK5I6flUpX0bjOFyqUZcGnSAmdoYOGzMYE6i8=
+			gupHhaxsw/7BZAD9aazv4ra+CKicLvE3mghjpizC5+c=
 			</data>
 		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MV5cQ38vPTOpiHJ8ia9Y2pCEiwLeHhIWUitnvknIsiU=
+			lKcuJdkJHffyeaQepeRqzKV0K88CuwhvRECudi+S8IM=
 			</data>
 		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3WSd5nzWc0qH4GMEX5vSrhm09pWbWUIbWYUyVZCsr9c=
+			98JR6TRbHKSLVOH8BFby1WQO9PgTpyFf9cKVJ2Y61rc=
 			</data>
 		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MV5cQ38vPTOpiHJ8ia9Y2pCEiwLeHhIWUitnvknIsiU=
+			lKcuJdkJHffyeaQepeRqzKV0K88CuwhvRECudi+S8IM=
 			</data>
 		</dict>
 		<key>Modules/DatalogicSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3td8zL3h+/HmgfkLa+OfdFT/UPnT2BunjIwfNRZKsW8=
+			Fmdx4Ak4lRozrrQ4N0PAKuGrYoKwZb921RhmFjvmfZE=
 			</data>
 		</dict>
 	</dict>

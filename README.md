@@ -23,6 +23,14 @@ The DatalogicSDK empowers users to write iOS applications that interface with a 
 
     - Click Add Package.
 
+2. Add ZintDataMatrix dependency.
+    
+    - Download and add ZintDataMatrix.xcframework to the dependencies of your target
+    
+    - Select 'Embed & Sign' option 
+    
+    ![dependency](images/dependency.png "Dependency")
+
 2. Configure BLE permission request
     
     To use Bluetooth Low Energy (BLE) features in your Swift app, you must add usage strings in your Info.plist, such as:

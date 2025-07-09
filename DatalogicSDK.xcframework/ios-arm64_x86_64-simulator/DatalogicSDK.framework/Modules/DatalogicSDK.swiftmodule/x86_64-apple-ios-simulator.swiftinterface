@@ -10,6 +10,42 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum BleManagerError : Swift.Error, Foundation.LocalizedError {
+  case connectionFailed(any Swift.Error, Swift.String)
+  case disconnectedPeripheral
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public struct ConfigValue : Swift.Sendable {
+  public var code: Swift.String
+  public var data: Swift.String
+}
+public struct BarcodeData : Swift.Sendable {
+  public let rawData: [Swift.UInt8]
+  public let data: Swift.String
+  public let barcodeID: Swift.String
+}
+public typealias BatteryData = [DatalogicSDK.BatteryDataField : Swift.String]
+public enum BatteryDataField : Swift.String, Swift.Sendable, Swift.CaseIterable {
+  case batteryCycleCount
+  case batterySoC
+  case batterySoH
+  case batteryTemp
+  case batteryCurrent
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [DatalogicSDK.BatteryDataField]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [DatalogicSDK.BatteryDataField] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct DeviceDetails : Swift.Sendable {
   public let model: Swift.String?
   public let serialNumber: Swift.String?
@@ -61,42 +97,6 @@ public actor DeviceManager {
   @objc deinit
   @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
-    get
-  }
-}
-public enum BleManagerError : Swift.Error, Foundation.LocalizedError {
-  case connectionFailed(any Swift.Error, Swift.String)
-  case disconnectedPeripheral
-  public var errorDescription: Swift.String? {
-    get
-  }
-}
-public struct ConfigValue : Swift.Sendable {
-  public var code: Swift.String
-  public var data: Swift.String
-}
-public struct BarcodeData : Swift.Sendable {
-  public let rawData: [Swift.UInt8]
-  public let data: Swift.String
-  public let barcodeID: Swift.String
-}
-public typealias BatteryData = [DatalogicSDK.BatteryDataField : Swift.String]
-public enum BatteryDataField : Swift.String, Swift.Sendable, Swift.CaseIterable {
-  case batteryCycleCount
-  case batterySoC
-  case batterySoH
-  case batteryTemp
-  case batteryCurrent
-  public var description: Swift.String {
-    get
-  }
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [DatalogicSDK.BatteryDataField]
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [DatalogicSDK.BatteryDataField] {
-    get
-  }
-  public var rawValue: Swift.String {
     get
   }
 }
