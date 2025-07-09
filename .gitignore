@@ -1,0 +1,35 @@
+# Build products
+.build/
+DerivedData/
+
+# SwiftPM config directory
+.swiftpm/
+
+# Xcode files (if used)
+*.xcworkspace
+*.xcodeproj
+xcuserdata/
+*.xcuserstate
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Logs
+*.log
+
+# macOS metadata
+.DS_Store
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+
+# IDE/editor settings
+.idea/
+.vscode/
+
+# Package.resolved (optional: keep or ignore based on team convention)
+# Uncomment to ignore:
+# Package.resolved

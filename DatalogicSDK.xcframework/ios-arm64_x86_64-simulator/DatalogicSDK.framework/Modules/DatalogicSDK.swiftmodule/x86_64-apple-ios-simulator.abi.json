@@ -1,0 +1,3218 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DatalogicSDK",
+    "printedName": "DatalogicSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceDetails",
+        "printedName": "DeviceDetails",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK13DeviceDetailsV5modelSSSgvp",
+            "mangledName": "$s12DatalogicSDK13DeviceDetailsV5modelSSSgvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK13DeviceDetailsV5modelSSSgvg",
+                "mangledName": "$s12DatalogicSDK13DeviceDetailsV5modelSSSgvg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serialNumber",
+            "printedName": "serialNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK13DeviceDetailsV12serialNumberSSSgvp",
+            "mangledName": "$s12DatalogicSDK13DeviceDetailsV12serialNumberSSSgvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK13DeviceDetailsV12serialNumberSSSgvg",
+                "mangledName": "$s12DatalogicSDK13DeviceDetailsV12serialNumberSSSgvg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "swRevision",
+            "printedName": "swRevision",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK13DeviceDetailsV10swRevisionSSSgvp",
+            "mangledName": "$s12DatalogicSDK13DeviceDetailsV10swRevisionSSSgvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK13DeviceDetailsV10swRevisionSSSgvg",
+                "mangledName": "$s12DatalogicSDK13DeviceDetailsV10swRevisionSSSgvg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DatalogicSDK13DeviceDetailsV",
+        "mangledName": "$s12DatalogicSDK13DeviceDetailsV",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Constants",
+        "printedName": "Constants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK9ConstantsC7versionSSvpZ",
+            "mangledName": "$s12DatalogicSDK9ConstantsC7versionSSvpZ",
+            "moduleName": "DatalogicSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK9ConstantsC7versionSSvgZ",
+                "mangledName": "$s12DatalogicSDK9ConstantsC7versionSSvgZ",
+                "moduleName": "DatalogicSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12DatalogicSDK9ConstantsC",
+        "mangledName": "$s12DatalogicSDK9ConstantsC",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ZintDataMatrix",
+        "printedName": "ZintDataMatrix",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceManagerDelegate",
+        "printedName": "DeviceManagerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didGeneratePairingBarcode",
+            "printedName": "didGeneratePairingBarcode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP25didGeneratePairingBarcodeyySo7UIImageCF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP25didGeneratePairingBarcodeyySo7UIImageCF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didConnect",
+            "printedName": "didConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP10didConnectyyF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP10didConnectyyF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRestoreConnection",
+            "printedName": "didRestoreConnection()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP20didRestoreConnectionyyF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP20didRestoreConnectionyyF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUpdateBatteryData",
+            "printedName": "didUpdateBatteryData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[DatalogicSDK.BatteryDataField : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BatteryDataField",
+                    "printedName": "DatalogicSDK.BatteryDataField",
+                    "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP20didUpdateBatteryDatayySDyAA0hI5FieldOSSGF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP20didUpdateBatteryDatayySDyAA0hI5FieldOSSGF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUpdateDeviceDetails",
+            "printedName": "didUpdateDeviceDetails(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceDetails",
+                "printedName": "DatalogicSDK.DeviceDetails",
+                "usr": "s:12DatalogicSDK13DeviceDetailsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP09didUpdateC7DetailsyyAA0cH0VF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP09didUpdateC7DetailsyyAA0cH0VF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReadBarcodeData",
+            "printedName": "didReadBarcodeData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BarcodeData",
+                "printedName": "DatalogicSDK.BarcodeData",
+                "usr": "s:12DatalogicSDK11BarcodeDataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP18didReadBarcodeDatayyAA0hI0VF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP18didReadBarcodeDatayyAA0hI0VF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didSetConfigData",
+            "printedName": "didSetConfigData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DatalogicSDK.ConfigValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigValue",
+                    "printedName": "DatalogicSDK.ConfigValue",
+                    "usr": "s:12DatalogicSDK11ConfigValueV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP16didSetConfigDatayySayAA0H5ValueVGF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP16didSetConfigDatayySayAA0H5ValueVGF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didGetConfigData",
+            "printedName": "didGetConfigData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DatalogicSDK.ConfigValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigValue",
+                    "printedName": "DatalogicSDK.ConfigValue",
+                    "usr": "s:12DatalogicSDK11ConfigValueV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP16didGetConfigDatayySayAA0H5ValueVGF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP16didGetConfigDatayySayAA0H5ValueVGF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisconnect",
+            "printedName": "didDisconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP13didDisconnectyyF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP13didDisconnectyyF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUnlink",
+            "printedName": "didUnlink()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP9didUnlinkyyF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP9didUnlinkyyF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailWith",
+            "printedName": "didFailWith(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceManagerError",
+                "printedName": "DatalogicSDK.DeviceManagerError",
+                "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK21DeviceManagerDelegateP11didFailWith5erroryAA0cD5ErrorO_tF",
+            "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP11didFailWith5erroryAA0cD5ErrorO_tF",
+            "moduleName": "DatalogicSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatalogicSDK.DeviceManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : DatalogicSDK.DeviceManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12DatalogicSDK21DeviceManagerDelegateP",
+        "mangledName": "$s12DatalogicSDK21DeviceManagerDelegateP",
+        "moduleName": "DatalogicSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceManagerError",
+        "printedName": "DeviceManagerError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ble",
+            "printedName": "ble",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.DeviceManagerError.Type) -> (DatalogicSDK.BleManagerError) -> DatalogicSDK.DeviceManagerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DatalogicSDK.BleManagerError) -> DatalogicSDK.DeviceManagerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceManagerError",
+                        "printedName": "DatalogicSDK.DeviceManagerError",
+                        "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BleManagerError",
+                        "printedName": "DatalogicSDK.BleManagerError",
+                        "usr": "s:12DatalogicSDK15BleManagerErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.DeviceManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceManagerError",
+                        "printedName": "DatalogicSDK.DeviceManagerError",
+                        "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK18DeviceManagerErrorO3bleyAcA03BledE0OcACmF",
+            "mangledName": "$s12DatalogicSDK18DeviceManagerErrorO3bleyAcA03BledE0OcACmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alreadyPaired",
+            "printedName": "alreadyPaired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.DeviceManagerError.Type) -> DatalogicSDK.DeviceManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceManagerError",
+                    "printedName": "DatalogicSDK.DeviceManagerError",
+                    "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.DeviceManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceManagerError",
+                        "printedName": "DatalogicSDK.DeviceManagerError",
+                        "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK18DeviceManagerErrorO13alreadyPairedyA2CmF",
+            "mangledName": "$s12DatalogicSDK18DeviceManagerErrorO13alreadyPairedyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "barcodeGenerationFailed",
+            "printedName": "barcodeGenerationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.DeviceManagerError.Type) -> DatalogicSDK.DeviceManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceManagerError",
+                    "printedName": "DatalogicSDK.DeviceManagerError",
+                    "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.DeviceManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceManagerError",
+                        "printedName": "DatalogicSDK.DeviceManagerError",
+                        "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK18DeviceManagerErrorO23barcodeGenerationFailedyA2CmF",
+            "mangledName": "$s12DatalogicSDK18DeviceManagerErrorO23barcodeGenerationFailedyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "configParsingFailed",
+            "printedName": "configParsingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.DeviceManagerError.Type) -> DatalogicSDK.DeviceManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceManagerError",
+                    "printedName": "DatalogicSDK.DeviceManagerError",
+                    "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.DeviceManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceManagerError",
+                        "printedName": "DatalogicSDK.DeviceManagerError",
+                        "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK18DeviceManagerErrorO19configParsingFailedyA2CmF",
+            "mangledName": "$s12DatalogicSDK18DeviceManagerErrorO19configParsingFailedyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "configParserInitFailed",
+            "printedName": "configParserInitFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.DeviceManagerError.Type) -> DatalogicSDK.DeviceManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceManagerError",
+                    "printedName": "DatalogicSDK.DeviceManagerError",
+                    "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.DeviceManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceManagerError",
+                        "printedName": "DatalogicSDK.DeviceManagerError",
+                        "usr": "s:12DatalogicSDK18DeviceManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK18DeviceManagerErrorO22configParserInitFailedyA2CmF",
+            "mangledName": "$s12DatalogicSDK18DeviceManagerErrorO22configParserInitFailedyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK18DeviceManagerErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s12DatalogicSDK18DeviceManagerErrorO16errorDescriptionSSSgvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK18DeviceManagerErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s12DatalogicSDK18DeviceManagerErrorO16errorDescriptionSSSgvg",
+                "moduleName": "DatalogicSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12DatalogicSDK18DeviceManagerErrorO",
+        "mangledName": "$s12DatalogicSDK18DeviceManagerErrorO",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceManager",
+        "printedName": "DeviceManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceManager",
+                "printedName": "DatalogicSDK.DeviceManager",
+                "usr": "s:12DatalogicSDK13DeviceManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DatalogicSDK13DeviceManagerCACycfc",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerCACycfc",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "appMovedToForeground",
+            "printedName": "appMovedToForeground()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC20appMovedToForegroundyyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC20appMovedToForegroundyyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDelegate",
+            "printedName": "setDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any DatalogicSDK.DeviceManagerDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceManagerDelegate",
+                    "printedName": "any DatalogicSDK.DeviceManagerDelegate",
+                    "usr": "s:12DatalogicSDK21DeviceManagerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC11setDelegateyyAA0cdF0_pSgF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC11setDelegateyyAA0cdF0_pSgF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startPairing",
+            "printedName": "startPairing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC12startPairingyyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC12startPairingyyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopPairing",
+            "printedName": "stopPairing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC11stopPairingyyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC11stopPairingyyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceDetails",
+            "printedName": "getDeviceDetails()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceDetails",
+                "printedName": "DatalogicSDK.DeviceDetails",
+                "usr": "s:12DatalogicSDK13DeviceDetailsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC03getC7DetailsAA0cF0VyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC03getC7DetailsAA0cF0VyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBatteryData",
+            "printedName": "getBatteryData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[DatalogicSDK.BatteryDataField : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[DatalogicSDK.BatteryDataField : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryDataField",
+                        "printedName": "DatalogicSDK.BatteryDataField",
+                        "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC14getBatteryDataSDyAA0fG5FieldOSSGSgyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC14getBatteryDataSDyAA0fG5FieldOSSGSgyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startReadingBarcode",
+            "printedName": "startReadingBarcode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC19startReadingBarcodeyyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC19startReadingBarcodeyyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopReadingBarcode",
+            "printedName": "stopReadingBarcode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC18stopReadingBarcodeyyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC18stopReadingBarcodeyyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyConfig",
+            "printedName": "applyConfig(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC11applyConfig4fromy10Foundation3URLV_tF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC11applyConfig4fromy10Foundation3URLV_tF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConfigValues",
+            "printedName": "getConfigValues(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC15getConfigValues3forySaySSG_tF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC15getConfigValues3forySaySSG_tF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setConfigValue",
+            "printedName": "setConfigValue(for:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC14setConfigValue3for5valueySS_SStF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC14setConfigValue3for5valueySS_SStF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restoreDefaultConfig",
+            "printedName": "restoreDefaultConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC20restoreDefaultConfigyyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC20restoreDefaultConfigyyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findMyDevice",
+            "printedName": "findMyDevice()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC06findMyC0yyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC06findMyC0yyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlinkDevice",
+            "printedName": "unlinkDevice()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DatalogicSDK13DeviceManagerC06unlinkC0yyF",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC06unlinkC0yyF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK13DeviceManagerC15unownedExecutorScevp",
+            "mangledName": "$s12DatalogicSDK13DeviceManagerC15unownedExecutorScevp",
+            "moduleName": "DatalogicSDK",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK13DeviceManagerC15unownedExecutorScevg",
+                "mangledName": "$s12DatalogicSDK13DeviceManagerC15unownedExecutorScevg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12DatalogicSDK13DeviceManagerC",
+        "mangledName": "$s12DatalogicSDK13DeviceManagerC",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BleManagerError",
+        "printedName": "BleManagerError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "connectionFailed",
+            "printedName": "connectionFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.BleManagerError.Type) -> (any Swift.Error, Swift.String) -> DatalogicSDK.BleManagerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error, Swift.String) -> DatalogicSDK.BleManagerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BleManagerError",
+                        "printedName": "DatalogicSDK.BleManagerError",
+                        "usr": "s:12DatalogicSDK15BleManagerErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(any Swift.Error, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.BleManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BleManagerError",
+                        "printedName": "DatalogicSDK.BleManagerError",
+                        "usr": "s:12DatalogicSDK15BleManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK15BleManagerErrorO16connectionFailedyACs0E0_p_SStcACmF",
+            "mangledName": "$s12DatalogicSDK15BleManagerErrorO16connectionFailedyACs0E0_p_SStcACmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disconnectedPeripheral",
+            "printedName": "disconnectedPeripheral",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.BleManagerError.Type) -> DatalogicSDK.BleManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BleManagerError",
+                    "printedName": "DatalogicSDK.BleManagerError",
+                    "usr": "s:12DatalogicSDK15BleManagerErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.BleManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BleManagerError",
+                        "printedName": "DatalogicSDK.BleManagerError",
+                        "usr": "s:12DatalogicSDK15BleManagerErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK15BleManagerErrorO22disconnectedPeripheralyA2CmF",
+            "mangledName": "$s12DatalogicSDK15BleManagerErrorO22disconnectedPeripheralyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK15BleManagerErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s12DatalogicSDK15BleManagerErrorO16errorDescriptionSSSgvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK15BleManagerErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s12DatalogicSDK15BleManagerErrorO16errorDescriptionSSSgvg",
+                "moduleName": "DatalogicSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12DatalogicSDK15BleManagerErrorO",
+        "mangledName": "$s12DatalogicSDK15BleManagerErrorO",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigValue",
+        "printedName": "ConfigValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK11ConfigValueV4codeSSvp",
+            "mangledName": "$s12DatalogicSDK11ConfigValueV4codeSSvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK11ConfigValueV4codeSSvg",
+                "mangledName": "$s12DatalogicSDK11ConfigValueV4codeSSvg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK11ConfigValueV4codeSSvs",
+                "mangledName": "$s12DatalogicSDK11ConfigValueV4codeSSvs",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK11ConfigValueV4codeSSvM",
+                "mangledName": "$s12DatalogicSDK11ConfigValueV4codeSSvM",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK11ConfigValueV4dataSSvp",
+            "mangledName": "$s12DatalogicSDK11ConfigValueV4dataSSvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK11ConfigValueV4dataSSvg",
+                "mangledName": "$s12DatalogicSDK11ConfigValueV4dataSSvg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK11ConfigValueV4dataSSvs",
+                "mangledName": "$s12DatalogicSDK11ConfigValueV4dataSSvs",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK11ConfigValueV4dataSSvM",
+                "mangledName": "$s12DatalogicSDK11ConfigValueV4dataSSvM",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DatalogicSDK11ConfigValueV",
+        "mangledName": "$s12DatalogicSDK11ConfigValueV",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeData",
+        "printedName": "BarcodeData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rawData",
+            "printedName": "rawData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK11BarcodeDataV03rawD0Says5UInt8VGvp",
+            "mangledName": "$s12DatalogicSDK11BarcodeDataV03rawD0Says5UInt8VGvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK11BarcodeDataV03rawD0Says5UInt8VGvg",
+                "mangledName": "$s12DatalogicSDK11BarcodeDataV03rawD0Says5UInt8VGvg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK11BarcodeDataV4dataSSvp",
+            "mangledName": "$s12DatalogicSDK11BarcodeDataV4dataSSvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK11BarcodeDataV4dataSSvg",
+                "mangledName": "$s12DatalogicSDK11BarcodeDataV4dataSSvg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "barcodeID",
+            "printedName": "barcodeID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK11BarcodeDataV9barcodeIDSSvp",
+            "mangledName": "$s12DatalogicSDK11BarcodeDataV9barcodeIDSSvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK11BarcodeDataV9barcodeIDSSvg",
+                "mangledName": "$s12DatalogicSDK11BarcodeDataV9barcodeIDSSvg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DatalogicSDK11BarcodeDataV",
+        "mangledName": "$s12DatalogicSDK11BarcodeDataV",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BatteryDataField",
+        "printedName": "BatteryDataField",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "batteryCycleCount",
+            "printedName": "batteryCycleCount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.BatteryDataField.Type) -> DatalogicSDK.BatteryDataField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BatteryDataField",
+                    "printedName": "DatalogicSDK.BatteryDataField",
+                    "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.BatteryDataField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryDataField",
+                        "printedName": "DatalogicSDK.BatteryDataField",
+                        "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK16BatteryDataFieldO17batteryCycleCountyA2CmF",
+            "mangledName": "$s12DatalogicSDK16BatteryDataFieldO17batteryCycleCountyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batterySoC",
+            "printedName": "batterySoC",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.BatteryDataField.Type) -> DatalogicSDK.BatteryDataField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BatteryDataField",
+                    "printedName": "DatalogicSDK.BatteryDataField",
+                    "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.BatteryDataField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryDataField",
+                        "printedName": "DatalogicSDK.BatteryDataField",
+                        "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK16BatteryDataFieldO10batterySoCyA2CmF",
+            "mangledName": "$s12DatalogicSDK16BatteryDataFieldO10batterySoCyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batterySoH",
+            "printedName": "batterySoH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.BatteryDataField.Type) -> DatalogicSDK.BatteryDataField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BatteryDataField",
+                    "printedName": "DatalogicSDK.BatteryDataField",
+                    "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.BatteryDataField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryDataField",
+                        "printedName": "DatalogicSDK.BatteryDataField",
+                        "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK16BatteryDataFieldO10batterySoHyA2CmF",
+            "mangledName": "$s12DatalogicSDK16BatteryDataFieldO10batterySoHyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryTemp",
+            "printedName": "batteryTemp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.BatteryDataField.Type) -> DatalogicSDK.BatteryDataField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BatteryDataField",
+                    "printedName": "DatalogicSDK.BatteryDataField",
+                    "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.BatteryDataField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryDataField",
+                        "printedName": "DatalogicSDK.BatteryDataField",
+                        "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK16BatteryDataFieldO11batteryTempyA2CmF",
+            "mangledName": "$s12DatalogicSDK16BatteryDataFieldO11batteryTempyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryCurrent",
+            "printedName": "batteryCurrent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatalogicSDK.BatteryDataField.Type) -> DatalogicSDK.BatteryDataField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BatteryDataField",
+                    "printedName": "DatalogicSDK.BatteryDataField",
+                    "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatalogicSDK.BatteryDataField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryDataField",
+                        "printedName": "DatalogicSDK.BatteryDataField",
+                        "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DatalogicSDK16BatteryDataFieldO14batteryCurrentyA2CmF",
+            "mangledName": "$s12DatalogicSDK16BatteryDataFieldO14batteryCurrentyA2CmF",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK16BatteryDataFieldO11descriptionSSvp",
+            "mangledName": "$s12DatalogicSDK16BatteryDataFieldO11descriptionSSvp",
+            "moduleName": "DatalogicSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK16BatteryDataFieldO11descriptionSSvg",
+                "mangledName": "$s12DatalogicSDK16BatteryDataFieldO11descriptionSSvg",
+                "moduleName": "DatalogicSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DatalogicSDK.BatteryDataField?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BatteryDataField",
+                    "printedName": "DatalogicSDK.BatteryDataField",
+                    "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DatalogicSDK16BatteryDataFieldO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12DatalogicSDK16BatteryDataFieldO8rawValueACSgSS_tcfc",
+            "moduleName": "DatalogicSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK16BatteryDataFieldO8rawValueSSvp",
+            "mangledName": "$s12DatalogicSDK16BatteryDataFieldO8rawValueSSvp",
+            "moduleName": "DatalogicSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK16BatteryDataFieldO8rawValueSSvg",
+                "mangledName": "$s12DatalogicSDK16BatteryDataFieldO8rawValueSSvg",
+                "moduleName": "DatalogicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DatalogicSDK.BatteryDataField]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BatteryDataField",
+                    "printedName": "DatalogicSDK.BatteryDataField",
+                    "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DatalogicSDK16BatteryDataFieldO8allCasesSayACGvpZ",
+            "mangledName": "$s12DatalogicSDK16BatteryDataFieldO8allCasesSayACGvpZ",
+            "moduleName": "DatalogicSDK",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DatalogicSDK.BatteryDataField]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryDataField",
+                        "printedName": "DatalogicSDK.BatteryDataField",
+                        "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DatalogicSDK16BatteryDataFieldO8allCasesSayACGvgZ",
+                "mangledName": "$s12DatalogicSDK16BatteryDataFieldO8allCasesSayACGvgZ",
+                "moduleName": "DatalogicSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12DatalogicSDK16BatteryDataFieldO",
+        "mangledName": "$s12DatalogicSDK16BatteryDataFieldO",
+        "moduleName": "DatalogicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DatalogicSDK.BatteryDataField]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BatteryDataField",
+                        "printedName": "DatalogicSDK.BatteryDataField",
+                        "usr": "s:12DatalogicSDK16BatteryDataFieldO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 4,
+      "value": "0x10"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 4,
+      "value": "0x1F"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 4,
+      "value": "0x20"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 4,
+      "value": "0x21"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 4,
+      "value": "0x22"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 348,
+      "length": 4,
+      "value": "0x23"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 378,
+      "length": 4,
+      "value": "0x24"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 410,
+      "length": 4,
+      "value": "0x25"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 439,
+      "length": 4,
+      "value": "0x26"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 4,
+      "value": "0x32"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 500,
+      "length": 4,
+      "value": "0x33"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 532,
+      "length": 4,
+      "value": "0x16"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 137,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/DeviceManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3196,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/DeviceManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3245,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/DeviceManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1323,
+      "length": 38,
+      "value": "\"00002a19-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1420,
+      "length": 38,
+      "value": "\"00002a24-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1518,
+      "length": 38,
+      "value": "\"00002a25-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1620,
+      "length": 38,
+      "value": "\"00002a28-0000-1000-8000-00805f9b34fb\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1789,
+      "length": 38,
+      "value": "\"C17B0000-DB81-42A2-9E5A-64E1DF0F05F9\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1989,
+      "length": 38,
+      "value": "\"C17B0002-DB81-42A2-9E5A-64E1DF0F05F9\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2093,
+      "length": 38,
+      "value": "\"C17B0003-DB81-42A2-9E5A-64E1DF0F05F9\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2494,
+      "length": 38,
+      "value": "\"C17B0007-DB81-42A2-9E5A-64E1DF0F05F9\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2609,
+      "length": 38,
+      "value": "\"C17B0008-DB81-42A2-9E5A-64E1DF0F05F9\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2892,
+      "length": 20,
+      "value": "\"pairedCodiscanUUID\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2960,
+      "length": 4,
+      "value": "\"01\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3002,
+      "length": 4,
+      "value": "\"15\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3049,
+      "length": 4,
+      "value": "\"08\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3226,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "Array",
+      "offset": 5843,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "Array",
+      "offset": 6967,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "Array",
+      "offset": 8269,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8304,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "Array",
+      "offset": 8348,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 24163,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 301,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 340,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 380,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 4,
+      "value": "0x05"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 4,
+      "value": "0x83"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 4,
+      "value": "0xA3"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "Array",
+      "offset": 591,
+      "length": 18,
+      "value": "[0x76, 0x65, 0x72]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 650,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 4,
+      "value": "0xA3"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "Array",
+      "offset": 743,
+      "length": 18,
+      "value": "[0x62, 0x75, 0x66]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 4,
+      "value": "0xA3"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "Array",
+      "offset": 850,
+      "length": 18,
+      "value": "[0x6E, 0x74, 0x66]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 909,
+      "length": 4,
+      "value": "0x0D"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 963,
+      "length": 4,
+      "value": "0xC4"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1016,
+      "length": 4,
+      "value": "0xC5"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketParser.swift",
+      "kind": "Array",
+      "offset": 189,
+      "length": 125,
+      "value": "[\"!\", \"@\", \"#\", \"$\", \"%\", \"&\", \"*\", \"¬\", \"¡\", \"£\", \"¤\", \"¢\", \"©\", \"«\", \"ª\", \"¯\", \"¨\", \"±\", \"­\", \"¦\", \" \"]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 354,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 4,
+      "value": "0xC4"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 4,
+      "value": "0xC5"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketParser.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 3,
+      "value": "\"%\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/BLEPacketParser.swift",
+      "kind": "StringLiteral",
+      "offset": 563,
+      "length": 3,
+      "value": "\"?\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/DeviceValueParser.swift",
+      "kind": "Array",
+      "offset": 559,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/DeviceValueParser.swift",
+      "kind": "Array",
+      "offset": 602,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/DeviceValueParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 640,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/DeviceValueParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 684,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/DeviceValueParser.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Internal\/DeviceValueParser.swift",
+      "kind": "Dictionary",
+      "offset": 998,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/BarcodeID.swift",
+      "kind": "Dictionary",
+      "offset": 173,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/BatteryData.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 5,
+      "value": "\"s-B\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/BatteryData.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 12,
+      "value": "\"s-Batt_SoC\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/BatteryData.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 12,
+      "value": "\"s-Batt_SoH\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/BatteryData.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 14,
+      "value": "\"h-Batt_RealT\""
+    },
+    {
+      "filePath": "\/Users\/amaroso\/Projects\/codiscan-sdk-ios\/DatalogicSDK\/Sources\/Models\/BatteryData.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 14,
+      "value": "\"h-Batt_RealC\""
+    }
+  ]
+}

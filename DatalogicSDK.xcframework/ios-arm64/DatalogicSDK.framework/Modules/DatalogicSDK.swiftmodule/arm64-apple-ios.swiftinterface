@@ -1,0 +1,105 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios16.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DatalogicSDK
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import Combine
+import CoreBluetooth
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum BleManagerError : Swift.Error, Foundation.LocalizedError {
+  case connectionFailed(any Swift.Error, Swift.String)
+  case disconnectedPeripheral
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public struct ConfigValue : Swift.Sendable {
+  public var code: Swift.String
+  public var data: Swift.String
+}
+public struct BarcodeData : Swift.Sendable {
+  public let rawData: [Swift.UInt8]
+  public let data: Swift.String
+  public let barcodeID: Swift.String
+}
+public typealias BatteryData = [DatalogicSDK.BatteryDataField : Swift.String]
+public enum BatteryDataField : Swift.String, Swift.Sendable, Swift.CaseIterable {
+  case batteryCycleCount
+  case batterySoC
+  case batterySoH
+  case batteryTemp
+  case batteryCurrent
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [DatalogicSDK.BatteryDataField]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [DatalogicSDK.BatteryDataField] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct DeviceDetails : Swift.Sendable {
+  public let model: Swift.String?
+  public let serialNumber: Swift.String?
+  public let swRevision: Swift.String?
+}
+@_hasMissingDesignatedInitializers public class Constants {
+  public static let version: Swift.String
+  @objc deinit
+}
+public protocol DeviceManagerDelegate : AnyObject {
+  func didGeneratePairingBarcode(_ barcode: UIKit.UIImage)
+  func didConnect()
+  func didRestoreConnection()
+  func didUpdateBatteryData(_ value: DatalogicSDK.BatteryData)
+  func didUpdateDeviceDetails(_ value: DatalogicSDK.DeviceDetails)
+  func didReadBarcodeData(_ value: DatalogicSDK.BarcodeData)
+  func didSetConfigData(_ values: [DatalogicSDK.ConfigValue])
+  func didGetConfigData(_ values: [DatalogicSDK.ConfigValue])
+  func didDisconnect()
+  func didUnlink()
+  func didFailWith(error: DatalogicSDK.DeviceManagerError)
+}
+public enum DeviceManagerError : Swift.Error, Foundation.LocalizedError {
+  case ble(DatalogicSDK.BleManagerError)
+  case alreadyPaired
+  case barcodeGenerationFailed
+  case configParsingFailed
+  case configParserInitFailed
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public actor DeviceManager {
+  public init()
+  public func appMovedToForeground()
+  public func setDelegate(_ delegate: (any DatalogicSDK.DeviceManagerDelegate)?)
+  public func startPairing()
+  public func stopPairing()
+  public func getDeviceDetails() -> DatalogicSDK.DeviceDetails
+  public func getBatteryData() -> DatalogicSDK.BatteryData?
+  public func startReadingBarcode()
+  public func stopReadingBarcode()
+  public func applyConfig(from url: Foundation.URL)
+  public func getConfigValues(for codes: [Swift.String])
+  public func setConfigValue(for code: Swift.String, value: Swift.String)
+  public func restoreDefaultConfig()
+  public func findMyDevice()
+  public func unlinkDevice()
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+extension DatalogicSDK.BatteryDataField : Swift.Equatable {}
+extension DatalogicSDK.BatteryDataField : Swift.Hashable {}
+extension DatalogicSDK.BatteryDataField : Swift.RawRepresentable {}
