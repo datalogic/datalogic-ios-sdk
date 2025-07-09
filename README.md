@@ -42,6 +42,8 @@ print(Constants.version)
 
 ## Sample App
 
+https://github.com/datalogic/datalogic-ios-samples
+
 The CODiScan SDK Sample App showcases the capabilities of the DatalogicSDK in four tabs:
 
 - Code: allows device linking (with barcode) and unlinking, triggering a barcode scan, triggering a "find my device" command, sharing barcodes log.
