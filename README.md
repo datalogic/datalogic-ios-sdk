@@ -31,7 +31,7 @@ The DatalogicSDK empowers users to write iOS applications that interface with a 
     
     ![dependency](images/dependency.png "Dependency")
 
-2. Configure BLE permission request
+3. Configure BLE permission request
     
     To use Bluetooth Low Energy (BLE) features in your Swift app, you must add usage strings in your Info.plist, such as:
 
@@ -40,7 +40,7 @@ The DatalogicSDK empowers users to write iOS applications that interface with a 
         <string>This app needs Bluetooth access to discover and connect to nearby devices.</string>
     ```
 
-2. Import and Use in Code
+4. Import and Use in Code
 
 ```
 import DatalogicSDK
@@ -75,7 +75,7 @@ The CODiScan SDK Sample App showcases the capabilities of the DatalogicSDK in fo
 
 ![barcode](images/barcode-sequence-1.png "Barcode sequence ")
 
-![barcode1](images/barcode-sequence-1.png "Barcode sequence 1")
+![barcode1](images/barcode-sequence.png "Barcode sequence 1")
 
 ## Documentation
 
@@ -223,7 +223,7 @@ Called when a device-related error occurs.
 
 _func didGeneratePairingBarcode(UIImage)_
 
-Called when a pairing barcode is generated.
+Called when a pairing barcode is generated. The generated barcode is raw does not include a quiet zone. A barcode quiet zone is the blank space surrounding a barcode that helps barcode scanners accurately identify and read the code. It acts as a buffer, ensuring the scanner can distinguish the barcode from its background and other printed elements. It's the app developer responsibility to implement a quiet zone around t he barcode.
 
 _func didGetConfigData([ConfigValue])_
 
